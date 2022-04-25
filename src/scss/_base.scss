@@ -1,0 +1,27 @@
+@import url("https://use.typekit.net/pru1uqk.css");
+
+html{
+	background-color: rgb(245,218,223);
+}
+
+h1{
+	font-size: 3.5em;
+  	font-family: filmotype-austin, sans-serif;
+  	color: rgb(236,76,87);
+}
+
+figure{
+	transition: all .4s ease-in-out;
+}
+
+figure:hover{
+  transform: scale(1.1);
+}
+
+figcaption{
+	font-size: 1.5em;
+}
+
+footer{
+	font-family: filmotype-austin, sans-serif;
+}

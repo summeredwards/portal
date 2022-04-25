@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.sr-only{
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+.grid-gallery{
+  max-width: $default-width;
+  margin: $center-margin;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 
+  1fr 1fr 1fr;
+  grid-template-areas: 
+  "image1 image2 image3" 
+  "image4 image5 image6"
+  "image7 image8 filler";
+
+}
+
+.image1{
+  grid-area: image1;
+}
+
+.image2{
+  grid-area: image2;
+}
+
+.image3{
+  grid-area: image3;
+}
+
+.image4{
+  grid-area: image4;
+}
+
+.image5{
+  grid-area: image5;
+}
+
+.image6{
+  grid-area: image6;
+}
+
+.image7{
+  grid-area: image7;
+}
+
+.image8{
+  grid-area: image8;
+}
+
+.filler{
+  grid-area: filler;
+}
+
+html{
+  width: 100%;
+}
+
+#camera{
+  margin: $center-margin;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+img{
+  /*border-radius: 35px;*/
+}
+
+figure{
+  text-align: center;
+  padding: 35px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1220px){
+  .grid-gallery{
+    grid-template-columns: 
+    1fr 1fr;
+    grid-template-areas: 
+    "image1 image2" 
+    "image3 image4"
+    "image5 image6"
+    "image7 image8";
+  }
+}
+
+@media screen and (max-width: 815px){
+  .grid-gallery{
+    grid-template-columns: 
+    1fr;
+    grid-template-areas: 
+    "image1" 
+    "image2" 
+    "image3" 
+    "image4"
+    "image5" 
+    "image6"
+    "image7"
+    "image8";
+  }
+}

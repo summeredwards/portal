@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Summer Edwards -- Programmer & Designer -- Instagram: @summ.sum
+
+# THANKS
+
+    To Google and David Schaal
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, SCSS
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, Webpack

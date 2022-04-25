@@ -1,0 +1,30 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "description": "using webpack boilerplate and dartsass to create a dev portal",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "dev": "./node_modules/.bin/webpack -w --mode development",
+    "build": "./node_modules/.bin/webpack --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "dartsass"
+  ],
+  "author": "summer edwards",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
