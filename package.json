@@ -21,7 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.1",
-    "sass": "^1.50.1",
+    "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.0",
